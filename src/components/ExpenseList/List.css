@@ -1,0 +1,58 @@
+.list {
+  background-color: white;
+  padding: 10px;
+  margin: 3px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.list-img {
+  height: 40px;
+}
+
+.list-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.list-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 13px;
+}
+
+.list-title {
+  font-size: 17px;
+}
+
+.list-time {
+  color: gray;
+  font-size: 12px;
+}
+
+.list-amount {
+  font-size: 17px;
+  font-weight: 580;
+}
+
+.delete-icon {
+  font-size: 14px;
+  color: rgb(85, 85, 85);
+}
+
+@media only screen and (max-width: 1115px) {
+  .list-img {
+    height: 35px;
+  }
+  .list-title {
+    font-size: 15px;
+  }
+  .list-amount {
+    font-size: 16px;
+  }
+}

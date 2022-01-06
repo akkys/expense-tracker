@@ -1,0 +1,118 @@
+.form-item {
+  display: flex;
+  align-items: center;
+  margin: 12px 0px;
+  width: 70%;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.form-item label {
+  background-color: #dad5d5;
+  padding: 5px;
+  border-radius: 5px 0px 0px 5px;
+  margin-right: 3px;
+  font-weight: 550;
+}
+
+.form-item input {
+  outline: none;
+  border: none;
+  font-size: 13px;
+  width: 70%;
+}
+
+.category-main-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.category {
+  position: relative;
+  width: 40%;
+}
+
+.category-dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 12px 0; */
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.category-container {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  flex-direction: column;
+  background-color: white;
+  /* border-radius: 0px 0px 5px 5px; */
+}
+
+.category-item {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.category-item img {
+  width: 32px;
+  margin-right: 10px;
+}
+
+.category-item label {
+  margin-left: 5px;
+}
+
+.add-form-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-form-btn div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  width: 10%;
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin: 5% 0 0 0;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1115px) {
+  .form-item {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .form-item {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .form-item {
+    width: 80%;
+  }
+  .category {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .form-item {
+    width: 100%;
+  }
+  .category {
+    width: 70%;
+  }
+}
